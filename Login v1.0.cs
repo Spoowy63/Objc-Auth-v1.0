@@ -89,7 +89,7 @@ timer(1) {
 else
 {
 [bad showError:@"Wrong Username or Password" subTitle:@"\n Game will crash now. \n After that you can try again" closeButtonTitle:nil duration:999999999.0f];
-dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+timer(2) {
 exit(0);
 });
 }
