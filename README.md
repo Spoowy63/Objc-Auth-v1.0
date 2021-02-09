@@ -6,7 +6,7 @@
 
 2. in your makefile put this: ***tweaknameHere***_FILES = $(wildcard SCLAlertView/*.m)
 
-3. you can now just copy paste this code in your project and it will work.
+3. you can now just copy paste this code in your Tweak.xm or whatever and it will work.
 
 
 
