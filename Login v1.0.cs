@@ -8,7 +8,7 @@ check = [NSUserDefaults standardUserDefaults];
 
 timer(5) {
 
-# you can change window width here
+// you can change window width here
 SCLAlertView *alert = [[SCLAlertView alloc] initWithNewWindowWidth:250];
 
 
@@ -78,7 +78,7 @@ return shouldClosePopup;
 
 
 [alert addButton:@"Unlock" actionBlock:^ (void) {
-#you can use base64 or my objc string obfuscator to encode the username and password.
+// you can use base64 or my objc string obfuscator to encode the username and password.
 if ([text1.text isEqualToString:@"FlipFlop"] && [text2.text isEqualToString:@"Spoowy"]) {
 [check setObject:@"1" forKey:@"loggedin"];
 [check synchronize];
