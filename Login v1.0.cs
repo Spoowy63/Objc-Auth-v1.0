@@ -1,3 +1,6 @@
+#import "SCLAlertView/SCLAlertView.h"
+#import <Foundation/Foundation.h>
+
 static void didFinishLaunching(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef info) {
 
 #define timer(sec) dispatch_after(dispatch_time(DISPATCH_TIME_NOW, sec * NSEC_PER_SEC), dispatch_get_main_queue(), ^
