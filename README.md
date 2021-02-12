@@ -1,5 +1,7 @@
 # Objc-Auth-v1.0
 
+this auth uses a simple username and password input to login
+
 **HOW TO USE:**
 
 1. unzip SCLAlertView.zip and copy yhe folder named **SCLAlertView** to your project 
