@@ -2,7 +2,7 @@
 
 **HOW TO USE:**
 
-1. you will also need to download the SCLAlertView folder from here: https://github.com/dogo/SCLAlertView
+1. unzip SCLAlertView.zip and copy yhe folder named **SCLAlertView** to your project 
 
 2. in your makefile put this: ***tweaknameHere***_FILES = $(wildcard SCLAlertView/*.m)
 
