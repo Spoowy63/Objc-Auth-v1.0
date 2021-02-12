@@ -1,12 +1,12 @@
 # Objc-Auth-v1.0
 
-### HOW TO USE:**
+### HOW TO USE:
 
-1. unzip SCLAlertView.zip and copy yhe folder named **SCLAlertView** to your project 
+* unzip SCLAlertView.zip and copy yhe folder named **SCLAlertView** to your project 
 
-2. in your makefile put this: ***tweaknameHere***_FILES = $(wildcard SCLAlertView/*.m)
+* in your makefile put this: ***tweaknameHere***_FILES = $(wildcard SCLAlertView/*.m)
 
-3. you can now just copy paste this code in your Tweak.xm or whatever and it will work.
+* you can now just copy paste this code in your Tweak.xm or whatever and it will work.
 
 ### EXTRA INFO:
 this auth uses a simple username and password input to login.
