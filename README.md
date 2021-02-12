@@ -10,5 +10,7 @@
 
 ### EXTRA INFO:
 this auth uses a simple username and password input to login.
+
 the colors might be ugly but you can change that yourself :)
+
 ***it is possible to bypass this auth. same goes for almost any other auth use at your own risk.***
