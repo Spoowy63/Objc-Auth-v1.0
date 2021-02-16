@@ -105,8 +105,8 @@ exit(0);
 if(![loggedin isEqualToString:@"1"]) {
 NSData* data = [[NSData alloc] initWithBase64EncodedString:@"BASE64 IMAGE HERE " options:0];
 UIImage* customAlertImage = [UIImage imageWithData:data];   
-
-[alert showCustom:alert image:customAlertImage color:[UIColor redColor] title:@"FlipFlop" subTitle:@"\n Enter a Username & Passoword\n" closeButtonTitle:nil duration:9999999999.0f];
+// dont change the credits in the subtitle please 
+[alert showCustom:alert image:customAlertImage color:[UIColor redColor] title:@"FlipFlop" subTitle:@"\nAuth Made By github.com/Spoowy63\n" closeButtonTitle:nil duration:9999999999.0f];
 }
   });
 }
